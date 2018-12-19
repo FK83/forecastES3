@@ -1,0 +1,14 @@
+Package: forecastES3
+Type: Package
+Title: Replication Materials for "Robust Forecast Evaluation of Expected Shortfall" (Ziegel et al, 2018)
+Version: 0.73
+Date: 2018-12-18
+Author: Alexander Jordan, Fabian Krueger, Johanna Ziegel
+Maintainer: Fabian Krueger <Fabian.Krueger83@gmail.com>
+Description: Replication materials for the paper by Ziegel, Krueger, Jordan and Fasciati ("Robust Forecast Evaluation of Expected Shortfall", 2018).
+License: GPL (>= 3)
+Imports:
+    Rcpp (>= 0.12.8), sandwich, VaRES, RcppRoll, boot, matrixStats, stats, magrittr
+Depends: 
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.0.1
